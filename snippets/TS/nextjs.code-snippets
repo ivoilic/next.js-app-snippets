@@ -7,7 +7,7 @@
         "\treturn (",
         "\t\t<${1:div}>${2:Page}</${1:div}>",
         "\t);",
-        "}",
+        "};",
       ],
       "description": "Next Page Function"
     },
@@ -18,9 +18,9 @@
           "\treturn (",
           "\t\t<${1:div}>${2:Page}</${1:div}>",
           "\t);",
-          "}",
+          "};",
           "",
-          "export default Page"
+          "export default Page;"
         ],
         "description": "Next Page Arrow Function"
     },
@@ -34,7 +34,7 @@
         "\treturn (",
         "\t\t<${1:div}>{children}</${1:div}>",
         "\t);",
-        "}",
+        "};",
     ],
     "description": "Next Page Function"
     },
@@ -47,9 +47,9 @@
         "\treturn (",
         "\t\t<${1:div}>{children}</${1:div}>",
         "\t);",
-        "}",
+        "};",
         "",
-        "export default Layout"
+        "export default Layout;"
         ],
         "description": "Next Layout Arrow Function"
     },
@@ -62,7 +62,7 @@
             "\treturn (",
             "\t\t<${1:div}>{children}</${1:div}>",
             "\t);",
-            "}",
+            "};",
         ],
         "description": "Next Page Function"
     },
@@ -75,9 +75,9 @@
         "\treturn (",
         "\t\t<${1:div}>{children}</${1:div}>",
         "\t);",
-        "}",
+        "};",
         "",
-        "export default Template"
+        "export default Template;"
         ],
         "description": "Next Template Arrow Function"
     },
@@ -89,7 +89,7 @@
             "\treturn (",
             "\t\t<${1:div}>${2:Loading...}</${1:div}>",
             "\t);",
-            "}",
+            "};",
         ],
         "description": "Next Loading Function"
     },
@@ -100,9 +100,9 @@
         "\treturn (",
         "\t\t<${1:div}>${2:Loading...}</${1:div}>",
         "\t);",
-        "}",
+        "};",
         "",
-        "export default Loading"
+        "export default Loading;"
         ],
         "description": "Next Loading Arrow Function"
     },
@@ -114,7 +114,7 @@
           "\treturn (",
           "\t\t<>${2:}</>",
           "\t);",
-          "}",
+          "};",
         ],
         "description": "Next Head Function"
     },
@@ -125,9 +125,9 @@
         "\treturn (",
         "\t\t<>${2:}</>",
         "\t);",
-        "}",
+        "};",
         "",
-        "export default Head"
+        "export default Head;"
         ],
         "description": "Next Head Arrow Function"
     },
@@ -139,7 +139,7 @@
             "\treturn (",
             "\t\t<${1:div}>${2:{error}}</${1:div}>",
             "\t);",
-            "}",
+            "};",
         ],
         "description": "Next Error Function"
     },
@@ -150,9 +150,9 @@
         "\treturn (",
         "\t\t<${1:div}>${2:{error}}</${1:div}>",
         "\t);",
-        "}",
+        "};",
         "",
-        "export default Error"
+        "export default Error;"
         ],
         "description": "Next Error Arrow Function"
     },
