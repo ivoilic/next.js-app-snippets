@@ -4,9 +4,9 @@
 
 A VSCode extension of snippets for <a href="https://nextjs.org/blog/next-13">Next.js Special Files</a>
 
-[![Install](https://vsmarketplacebadge.apphb.com/installs-short/ivoilic.nextjs-special-files-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs-short/ivoilic.nextjs-special-files-snippets.svg)
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/ivoilic.nextjs-special-files-snippets.svg)](https://vsmarketplacebadge.apphb.com/downloads-short/ivoilic.nextjs-special-files-snippets.svg)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-star/ivoilic.nextjs-special-files-snippets.svg)](https://vsmarketplacebadge.apphb.com/rating-star/ivoilic.nextjs-special-files-snippets.svg)
+[![Install](https://vsmarketplacebadge.apphb.com/installs-short/ivoilic.nextjs-special-files-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=ivoilic.nextjs-special-files-snippets)
+[![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/ivoilic.nextjs-special-files-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=ivoilic.nextjs-special-files-snippets)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating-star/ivoilic.nextjs-special-files-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=ivoilic.nextjs-special-files-snippets)
 
 Each snippet has two versions `nf` and `na` for function or arrow function respectively. The snippets are designed to be minimal so you can get coding faster. If you have any ideas or suggestions feel free to open an issue. Enjoy!
 
