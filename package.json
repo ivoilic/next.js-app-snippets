@@ -1,0 +1,61 @@
+{
+  "name": "nextjs-special-files-snippets",
+  "displayName": "Next.js Special Files Snippets",
+  "description": "Snippets for Next.js's Special Files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivoilic/next.js-special files-snippets"
+  },
+  "publisher": "Ivo Ilić",
+  "license": "MIT",
+  "icon": "icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "bugs": {
+    "url": "https://github.com/ivoilic/next.js-special files-snippets/issues"
+  },
+  "keywords": [
+    "next",
+    "nextjs",
+    "next.js",
+    "next-js",
+    "next special files",
+    "nextjs special files",
+    "next.js special files",
+    "next-js special files",
+    "next snippets",
+    "nextjs snippets",
+    "next.js snippets",
+    "next-js snippets",
+    "snippets",
+    "react",
+    "javascript",
+    "typescript",
+    "router"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/JS/nextjs.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/JS/nextjs.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/TS/nextjs.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/TS/nextjs.code-snippets"
+      }
+    ]
+  }
+}

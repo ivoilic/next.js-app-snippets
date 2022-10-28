@@ -1,0 +1,159 @@
+{
+    // Page
+    "Next Page Function": {
+      "prefix": "nfpage",
+      "body": [
+        "export default function Page() {",
+        "\treturn (",
+        "\t\t<${1:div}>${2:Page}</${1:div}>;",
+        "\t);",
+        "}",
+      ],
+      "description": "Next Page Function"
+    },
+    "Next Page Arrow Function": {
+        "prefix": "napage",
+        "body": [
+          "const Page = () => {",
+          "\treturn (",
+          "\t\t<${1:div}>${2:Page}</${1:div}>;",
+          "\t);",
+          "}",
+          "",
+          "export default Page"
+        ],
+        "description": "Next Page Arrow Function"
+    },
+    // Layout
+    "Next Layout Function": {
+    "prefix": "nflayout",
+    "body": [
+        "export default function Layout(props) {",
+        "\tconst { children } = props;",
+        "\t",
+        "\treturn (",
+        "\t\t<${1:div}>{children}</${1:div}>;",
+        "\t);",
+        "}",
+    ],
+    "description": "Next Page Function"
+    },
+    "Next Layout Arrow Function": {
+        "prefix": "nalayout",
+        "body": [
+        "const Layout = (props) => {",
+        "\tconst { children } = props;",
+        "\t",
+        "\treturn (",
+        "\t\t<${1:div}>{children}</${1:div}>;",
+        "\t);",
+        "}",
+        "",
+        "export default Layout"
+        ],
+        "description": "Next Layout Arrow Function"
+    },
+    "Next Template Function": {
+        "prefix": "nftemplate",
+        "body": [
+            "export default function Template(props) {",
+            "\tconst { children } = props;",
+            "\t",
+            "\treturn (",
+            "\t\t<${1:div}>{children}</${1:div}>;",
+            "\t);",
+            "}",
+        ],
+        "description": "Next Page Function"
+    },
+    "Next Template Arrow Function": {
+        "prefix": "natemplate",
+        "body": [
+        "const Template = (props) => {",
+        "\tconst { children } = props;",
+        "\t",
+        "\treturn (",
+        "\t\t<${1:div}>{children}</${1:div}>;",
+        "\t);",
+        "}",
+        "",
+        "export default Template"
+        ],
+        "description": "Next Template Arrow Function"
+    },
+    // Loading
+    "Next Loading Function": {
+        "prefix": "nfloading",
+        "body": [
+            "export default function Loading() {",
+            "\treturn (",
+            "\t\t<${1:div}>${2:Loading...}</${1:div}>;",
+            "\t);",
+            "}",
+        ],
+        "description": "Next Loading Function"
+    },
+    "Next Loading Arrow Function": {
+        "prefix": "naloading",
+        "body": [
+        "const Loading = () => {",
+        "\treturn (",
+        "\t\t<${1:div}>${2:Loading...}</${1:div}>;",
+        "\t);",
+        "}",
+        "",
+        "export default Loading"
+        ],
+        "description": "Next Loading Arrow Function"
+    },
+    // Head
+    "Next Head Function": {
+        "prefix": "nfhead",
+        "body": [
+          "export default function Head({ params }) {",
+          "\treturn (",
+          "\t\t<>${2:}</>;",
+          "\t);",
+          "}",
+        ],
+        "description": "Next Head Function"
+    },
+    "Next Head Arrow Function": {
+        "prefix": "nahead",
+        "body": [
+        "const Head = ({ params }) => {",
+        "\treturn (",
+        "\t\t<>${2:}</>;",
+        "\t);",
+        "}",
+        "",
+        "export default Head"
+        ],
+        "description": "Next Head Arrow Function"
+    },
+    // Error
+    "Next Error Function": {
+        "prefix": "nferror",
+        "body": [
+            "export default function Error({ error, reset }) {",
+            "\treturn (",
+            "\t\t<${1:div}>${2:{error}}</${1:div}>;",
+            "\t);",
+            "}",
+        ],
+        "description": "Next Error Function"
+    },
+    "Next Error Arrow Function": {
+        "prefix": "naerror",
+        "body": [
+        "const Error = ({ error, reset }) => {",
+        "\treturn (",
+        "\t\t<${1:div}>${2:{error}}</${1:div}>;",
+        "\t);",
+        "}",
+        "",
+        "export default Error"
+        ],
+        "description": "Next Error Arrow Function"
+    },
+}
