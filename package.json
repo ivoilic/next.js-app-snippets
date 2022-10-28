@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ivoilic/next.js-special files-snippets"
+    "url": "https://github.com/ivoilic/next.js-special-files-snippets"
   },
-  "publisher": "Ivo Ilić",
+  "publisher": "ivoilic",
   "license": "MIT",
   "icon": "icon.png",
   "categories": [
     "Snippets"
   ],
   "bugs": {
-    "url": "https://github.com/ivoilic/next.js-special files-snippets/issues"
+    "url": "https://github.com/ivoilic/next.js-special-files-snippets/issues"
   },
   "keywords": [
     "next",

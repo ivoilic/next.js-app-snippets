@@ -1,10 +1,8 @@
-<div style="text-align: center;">
-<img src="./icon.png" width="128"/>
-<h1>Next.js Special Files Snippets</h1>
-A VSCode extension of snippets for <a href="https://nextjs.org/blog/next-13">Next.js Special Files</a>
-</div>
+<img src="https://github.com/ivoilic/next.js-special-files-snippets/raw/main/icon.png" alt="Next.js 'N' logo in black circle on white square with rounded corners and a purple hue" width="128"/>
 
-##
+# Next.js Special Files Snippets
+
+A VSCode extension of snippets for <a href="https://nextjs.org/blog/next-13">Next.js Special Files</a>
 
 Each snippet has two versions `nf` and `na` for function or arrow function respectively. The snippets are designed to be minimal so you can get coding faster. If you have any ideas or suggestions feel free to open an issue. Enjoy!
 
