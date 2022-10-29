@@ -1,1 +1,3 @@
 nextjs-special-files-snippets-*\.vsix
+.vscode/*.code-snippets
+test/**

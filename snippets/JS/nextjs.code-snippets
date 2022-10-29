@@ -3,9 +3,9 @@
     "Next Page Function": {
       "prefix": "nfpage",
       "body": [
-        "export default function Page() {",
+        "export default function ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Page}() {",
         "\treturn (",
-        "\t\t<${1:div}>${2:Page}</${1:div}>",
+        "\t\t<${2:div}>${3:${TM_DIRECTORY/.*\\/(.*)$/$1/g}}</${2:div}>",
         "\t);",
         "};",
       ],
@@ -14,13 +14,13 @@
     "Next Page Arrow Function": {
         "prefix": "napage",
         "body": [
-          "const Page = () => {",
+          "const ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Page} = () => {",
           "\treturn (",
-          "\t\t<${1:div}>${2:Page}</${1:div}>",
+          "\t\t<${2:div}>${3:${TM_DIRECTORY/.*\\/(.*)$/$1/g}}</${2:div}>",
           "\t);",
           "};",
           "",
-          "export default Page;"
+          "export default ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Page};"
         ],
         "description": "Next Page Arrow Function"
     },
@@ -28,56 +28,56 @@
     "Next Layout Function": {
     "prefix": "nflayout",
     "body": [
-        "export default function Layout(props) {",
+        "export default function ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Layout}(props) {",
         "\tconst { children } = props;",
         "\t",
         "\treturn (",
-        "\t\t<${1:div}>{children}</${1:div}>",
+        "\t\t<${2:div}>{children}</${2:div}>",
         "\t);",
         "};",
     ],
-    "description": "Next Page Function"
+    "description": "Next Layout Function"
     },
     "Next Layout Arrow Function": {
         "prefix": "nalayout",
         "body": [
-        "const Layout = (props) => {",
+        "const ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Layout} = (props) => {",
         "\tconst { children } = props;",
         "\t",
         "\treturn (",
-        "\t\t<${1:div}>{children}</${1:div}>",
+        "\t\t<${2:div}>{children}</${2:div}>",
         "\t);",
         "};",
         "",
-        "export default Layout;"
+        "export default ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Layout};"
         ],
         "description": "Next Layout Arrow Function"
     },
     "Next Template Function": {
         "prefix": "nftemplate",
         "body": [
-            "export default function Template(props) {",
+            "export default function ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Template}(props) {",
             "\tconst { children } = props;",
             "\t",
             "\treturn (",
-            "\t\t<${1:div}>{children}</${1:div}>",
+            "\t\t<${2:div}>{children}</${2:div}>",
             "\t);",
             "};",
         ],
-        "description": "Next Page Function"
+        "description": "Next Template Function"
     },
     "Next Template Arrow Function": {
         "prefix": "natemplate",
         "body": [
-        "const Template = (props) => {",
+        "const ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Template} = (props) => {",
         "\tconst { children } = props;",
         "\t",
         "\treturn (",
-        "\t\t<${1:div}>{children}</${1:div}>",
+        "\t\t<${2:div}>{children}</${2:div}>",
         "\t);",
         "};",
         "",
-        "export default Template;"
+        "export default ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Template};"
         ],
         "description": "Next Template Arrow Function"
     },
@@ -85,9 +85,9 @@
     "Next Loading Function": {
         "prefix": "nfloading",
         "body": [
-            "export default function Loading() {",
+            "export default function ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Loading}() {",
             "\treturn (",
-            "\t\t<${1:div}>${2:Loading...}</${1:div}>",
+            "\t\t<${2:div}>${3:Loading...}</${2:div}>",
             "\t);",
             "};",
         ],
@@ -96,13 +96,13 @@
     "Next Loading Arrow Function": {
         "prefix": "naloading",
         "body": [
-        "const Loading = () => {",
+        "const ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Loading} = () => {",
         "\treturn (",
-        "\t\t<${1:div}>${2:Loading...}</${1:div}>",
+        "\t\t<${2:div}>${3:Loading...}</${2:div}>",
         "\t);",
         "};",
         "",
-        "export default Loading;"
+        "export default ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Loading};"
         ],
         "description": "Next Loading Arrow Function"
     },
@@ -110,7 +110,7 @@
     "Next Head Function": {
         "prefix": "nfhead",
         "body": [
-          "export default function Head({ params }) {",
+          "export default function ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Head}({ params }) {",
           "\treturn (",
           "\t\t<>${2:}</>",
           "\t);",
@@ -121,13 +121,13 @@
     "Next Head Arrow Function": {
         "prefix": "nahead",
         "body": [
-        "const Head = ({ params }) => {",
+        "const ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Head} = ({ params }) => {",
         "\treturn (",
         "\t\t<>${2:}</>",
         "\t);",
         "};",
         "",
-        "export default Head;"
+        "export default ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Head};"
         ],
         "description": "Next Head Arrow Function"
     },
@@ -135,9 +135,9 @@
     "Next Error Function": {
         "prefix": "nferror",
         "body": [
-            "export default function Error({ error, reset }) {",
+            "export default function ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Error}({ error, reset }) {",
             "\treturn (",
-            "\t\t<${1:div}>${2:{error}}</${1:div}>",
+            "\t\t<${2:div}>${3:{error}}</${2:div}>",
             "\t);",
             "};",
         ],
@@ -146,13 +146,13 @@
     "Next Error Arrow Function": {
         "prefix": "naerror",
         "body": [
-        "const Error = ({ error, reset }) => {",
+        "const ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Error} = ({ error, reset }) => {",
         "\treturn (",
-        "\t\t<${1:div}>${2:{error}}</${1:div}>",
+        "\t\t<${2:div}>${3:{error}}</${2:div}>",
         "\t);",
         "};",
         "",
-        "export default Error;"
+        "export default ${1:${TM_DIRECTORY/.*\\/(.*)$/${1:/pascalcase}/}Error};"
         ],
         "description": "Next Error Arrow Function"
     },

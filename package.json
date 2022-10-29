@@ -2,7 +2,7 @@
   "name": "nextjs-special-files-snippets",
   "displayName": "Next.js Special Files Snippets",
   "description": "Snippets for Next.js's Special Files",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.46.0"
   },
